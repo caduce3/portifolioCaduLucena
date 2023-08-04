@@ -10,9 +10,9 @@ function Header() {
                 <h2>Cadu Lucena</h2>
             </div>
             <div id='nav-navegacao'>
-                <li><a href="#navbar">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#home">Work</a></li>
+                <li><a href="#navbar">Início</a></li>
+                <li><a href="#home">Sobre</a></li>
+                <li><a href="#home">Trabalhos</a></li>
             </div>
             <div id='nav-redes-sociais'>
                 <li><a href="https://www.linkedin.com/in/carlos-eduardo-b0baa5229/" target='_blank'> <BsLinkedin/> </a></li>

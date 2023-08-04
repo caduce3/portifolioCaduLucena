@@ -1,0 +1,35 @@
+#home {
+    margin-top: 15%;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#home p { 
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+#home button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1.5px solid #03045E;
+    background-color: #F5EE84;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#home button:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none; /* Removendo a sombra quando clicado */
+}
