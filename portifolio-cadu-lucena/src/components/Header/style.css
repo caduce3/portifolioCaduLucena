@@ -7,6 +7,7 @@
     align-items: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    color: #03045E;
 }
 
 #nav-navegacao {
@@ -27,6 +28,7 @@
     text-decoration: none;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 5px;
     font-size: 1.1rem;
 }
 
