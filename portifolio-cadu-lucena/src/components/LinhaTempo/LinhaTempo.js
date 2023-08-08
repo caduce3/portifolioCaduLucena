@@ -51,15 +51,10 @@ function LinhaTempo() {
           </div>
         </div>
         <div id='progress-content-section'>
-          {timelineData.map((event, index) => (
-            <div
-              key={index}
-              className={`section-content ${index <= activeIndex ? 'active' : ''}`}
-            >
-              <h4>{event.date}</h4>
-              <p>{event.description}</p>
-            </div>
-          ))}
+          <div className={`section-content ${activeIndex <= timelineData.length - 1 ? 'active' : ''}`}>
+            <h4>{timelineData[activeIndex].date}</h4>
+            <p>{timelineData[activeIndex].description}</p>
+          </div>
         </div>
       </div>
     </section>

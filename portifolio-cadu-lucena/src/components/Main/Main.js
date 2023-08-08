@@ -35,12 +35,7 @@ return (
                 <div>
                     <h3>Sobre.</h3>
                     <p id='paragrafo1-sobre'>
-                        Fala galera, meu nome é Cadu, tenho 23 anos e sou natural de Natal, Rio Grande do Norte, Brasil. 
-                        Um dev não só apaixonado por tecnologia mas também por esporte.  
-                        
-                        Sou um Desenvolvedor FrontEnd com +2 anos de experiência nesse área e minha jornada começou quando estagiei no Tribunial Regional do Trabalho da 21ª Região como desenvolvedor.  
-
-                        Ao longo dos anos, tive a oportunidade de trabalhar em diversos projetos motivados, o que me iniciou um crescimento profissional e pessoal significativo.
+                        Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
                     </p>
                     <LinhaTempo/>
                 </div>
