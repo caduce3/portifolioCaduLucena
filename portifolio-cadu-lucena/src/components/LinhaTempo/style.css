@@ -136,7 +136,7 @@
 
 #progress-content-section .section-content {
 	border-radius: 10px;
-    height: 200px;
+    height: 400px;
     margin-bottom: 100px;
 	text-align:center;
 }
@@ -180,15 +180,20 @@
 
 #progress-content-section h4 {
     margin-top: 15px;
-    padding-top: 30px;
+    padding-top: 20px;
+    font-weight: 700;
 }
 
 #progress-content-section p {
     
-    padding-top: 30px;
+    padding-top: 10px;
     width: 60%;
     margin: auto;
     text-align: center;
     color: #03045E!important;
-    
+    margin-bottom: 50px;
+}
+
+#img-card-anos {
+    border-radius: 10px;
 }
