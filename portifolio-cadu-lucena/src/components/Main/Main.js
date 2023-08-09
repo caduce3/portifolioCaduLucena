@@ -28,7 +28,7 @@ return (
                         <Button id='btn-resumo' onClick={toggle}>Resumo</Button>
                     </div>
                     <div>
-                        <Image src="/eu1.png" width={350} height={350}/>
+                        <Image id='img-perfil' src="/eu4.png" width={350} height={350}/>
                     </div>
                 </div>
 
