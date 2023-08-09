@@ -38,6 +38,7 @@
 
 #div-do-conteudo-time-line {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	border-radius: 10px;
 }
 
 h4{
@@ -58,4 +59,8 @@ h4{
 #img-card-anos {
 	border-radius: 10px;
 	width: 28.3rem;
+}
+
+#card-time-line {
+	border-radius: 10px!important;
 }
