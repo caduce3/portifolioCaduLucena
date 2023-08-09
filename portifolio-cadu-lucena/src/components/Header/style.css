@@ -7,14 +7,14 @@
     align-items: center;
     padding-top: 2%;
     padding-bottom: 0.5%;
-    color: #03045E;
+    color: #0D0D0D!important;
     background-color: transparent;
     transition: background-color 0.3s;
   }
   
   #navbar.scrolled {
-    background-color: #03045e;
-    color: #FBF8CC;
+    background-color: #0D0D0D;
+    color: #F2F2F2!important;
   }
   
   #nav-redes-sociais ul {
@@ -51,7 +51,7 @@
   #nav-navegacao a:hover::after,
   #nav-redes-sociais a:hover::after {
     width: 100%; /* Define o tamanho da barra inferior ao ser hover */
-    background-color: #FBF8CC; /* Define a cor da barra inferior ao ser hover */
+    background-color: #F2F2F2!important; /* Define a cor da barra inferior ao ser hover */
   }
   
   h2 {
