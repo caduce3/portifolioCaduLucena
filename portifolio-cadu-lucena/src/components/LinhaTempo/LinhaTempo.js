@@ -7,8 +7,8 @@ function LinhaTempo() {
     { date: '2019', description: 'Aqui foi onde tudo começou, em 2019 tive a oportunidade de após ser aprovado no ENEM, ingressar na Universidade do Estado do Rio Grande do Norte aqui em Natal e cursar Ciência da Computação.', imagem:'/facul.png' },
     { date: '2020', description: 'No ano de 2020 veio a pandemia, porém as aulas ficaram remotas para não sermos completamente prejudicados, foquei nos estudos!', imagem:'/estudos.png' },
     { date: '2021', description: 'Em setembro de 2021 tive a oportunidade do meu primeiro estágio como desenvolvedor, ao lado de pessoas incríveis que agradeço até hoje pelo carinho e paciência comigo, aqui aprendi muito e foi onde dei os meus primeiros passos na área do desenvolvimento.', imagem:'/trt21.jpg' },
-    { date: '2022', description: 'Logo em seguida', imagem:'/suvepi.png' },
-    { date: '2023', description: 'Descrição do evento 5', imagem:'/eu1.png' },
+    { date: '2022', description: 'Após 1 ano de estágio, entrei em uma bolsa de graduação na Universidade Federal do Rio Grande do Norte (UFRN)  pelo Instituto Metropóle Digital (IMD) como desenvolvedor FrontEnd web podendo fazer parte e colaborar com o sistema SUVEPI. ', imagem:'/suvepi.png' },
+    { date: '2023', description: 'Atualmente estou cursando o 7° período de computação com previsão para término em 03/24, além de continuar na bolsa de graduação atuando como Dev Front-End. Também fechei meu primeiro freelancer com um empresa de marketing médico aqui mesmo de Natal/RN.', imagem:'/frela.jpg' },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
