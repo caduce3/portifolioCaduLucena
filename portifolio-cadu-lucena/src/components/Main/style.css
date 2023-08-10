@@ -102,3 +102,23 @@ h3 {
 
 
 
+#section-sobre {
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    font-family: 'Poppins', sans-serif;
+}
+
+#div-svg {
+    background-color: #F2F2F2;
+}
+
+
+#skills {
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    font-family: 'Poppins', sans-serif;
+}

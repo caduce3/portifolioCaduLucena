@@ -5,6 +5,7 @@ import './style.css';
 import { HiLocationMarker} from 'react-icons/hi' ;
 import Image from 'next/image';
 import LinhaTempo from '../LinhaTempo/LinhaTempo';
+import LineTecnologias from '../LineTecnologias/LineTecnologias';
 
 function Main(args) {
 
@@ -32,13 +33,7 @@ return (
                     </div>
                 </div>
 
-                <div>
-                    <h3>Sobre.</h3>
-                    <p id='paragrafo1-sobre'>
-                        Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
-                    </p>
-                    <LinhaTempo/>
-                </div>
+                
                 
                 <Modal isOpen={modal} toggle={toggle} {...args}id='modal-modal' >
                     <ModalHeader id='titulo-modal' >Um pouco sobre mim...</ModalHeader>
@@ -52,6 +47,21 @@ return (
                     </ModalFooter>
                 </Modal>
             </div>
+        </section>
+
+        <section>
+            <div id='section-sobre'>
+                <h3>Sobre.</h3>
+                <p id='paragrafo1-sobre'>
+                    Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
+                </p>
+                <LinhaTempo/>
+            </div>
+        </section>
+        
+        <section id='skills'>
+            <h3>Serviços.</h3>
+            <LineTecnologias/>
         </section>
     </>
   )
