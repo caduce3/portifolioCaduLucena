@@ -24,7 +24,7 @@ return (
         <section id='home'>
             <div>
                 <div id='div-forma'>
-                    <div>
+                    <div id='div-dev'>
                         <p>Olá, eu sou o Cadu,</p>
                         <h1>Desenvolvedor <br/> Front-End </h1>
                         <div>

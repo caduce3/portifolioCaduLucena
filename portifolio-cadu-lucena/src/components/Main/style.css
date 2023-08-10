@@ -85,6 +85,8 @@ h1 {
 
 #div-forma {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -107,9 +109,9 @@ h3 {
 #img-perfil {
     border-radius: 50%;
     border: 3px solid #0D0D0D;
+    width: 350px;
+    margin-right: 5vw!important;
 }
-
-
 
 #section-sobre {
     padding-right: 80px;
@@ -138,4 +140,40 @@ h3 {
 
 #modal-body ul li {
     margin-bottom: 20px;
+}
+
+
+@media (max-width: 1400px) {
+    #div-dev{
+        margin-right: -100px!important;
+    }
+}
+
+@media (max-width: 1300px) {
+    #div-dev{
+        margin-right: -200px!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #div-forma {
+        margin-top: 200px;
+    }
+    #img-perfil {
+        width: 250px;
+        height: 250px;
+    }
+    #div-dev{
+        margin-right: -300px!important;
+    }
+}
+
+@media (max-width: 850px) {
+    #div-forma {
+        flex-direction: column;
+    }
+    #img-perfil {
+        margin-top: 50px;
+        
+    }
 }
