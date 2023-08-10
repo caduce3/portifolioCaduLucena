@@ -56,6 +56,8 @@ h1 {
     text-align: justify;
     color: #0D0D0D;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
 }
 
 
@@ -72,6 +74,13 @@ h1 {
     cursor: pointer;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
     color: #0D0D0D;
+}
+
+#btn-modal:hover {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: 1s;
 }
 
 #div-forma {
@@ -121,4 +130,12 @@ h3 {
     background-color: #F2F2F2;
     color: #0D0D0D;
     font-family: 'Poppins', sans-serif;
+}
+
+.icons-resumo {
+    margin-right: 20px;
+}
+
+#modal-body ul li {
+    margin-bottom: 20px;
 }
