@@ -30,22 +30,20 @@ function LinhaTempo() {
           <button className='buttons-time-line' onClick={() => changeConteudo('2023', 'Atualmente estou cursando o 7° período de computação com previsão para término em 03/24, além de continuar na bolsa de graduação atuando como Dev Front-End. Também fechei meu primeiro freelancer com um empresa de marketing médico aqui mesmo de Natal/RN.', '/frela.jpg')}>2023</button>
         </div>
         <div id='div-do-conteudo-time-line'>
-          <Card id='card-time-line'
-          style={{
-            width: '28.3rem',
-            
-          }}
-        >
           <Image id='img-card-anos' src={conteudo.caminhoImagem} width={450} height={250}/>
-          <CardBody>
-            <CardTitle>
-              <h4>{conteudo.ano}</h4>
-            </CardTitle>
-            <CardText>
-              <p>{conteudo.descricao}</p>
-            </CardText>
-          </CardBody>
-        </Card>
+          <h4>{conteudo.ano}</h4>
+          <p>{conteudo.descricao}</p>
+          {/* <Card id='card-time-line'>
+            
+            <CardBody>
+              <CardTitle>
+                
+              </CardTitle>
+              <CardText>
+                
+              </CardText>
+            </CardBody>
+          </Card> */}
         </div>
       </div>
       

@@ -33,7 +33,9 @@ function Header() {
           <ul>
             <li><a href="#navbar">Início</a></li>
             <li><a href="#home">Sobre</a></li>
+            <li><a href="#home">Serviços</a></li>
             <li><a href="#home">Trabalhos</a></li>
+            <li><a href="#home">Fale comigo</a></li>
           </ul>
         </div>
         <div id='nav-redes-sociais'>

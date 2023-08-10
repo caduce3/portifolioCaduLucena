@@ -4,4 +4,5 @@ html {
   background-color: #F2F2F2;
   color: #0D0D0D;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }

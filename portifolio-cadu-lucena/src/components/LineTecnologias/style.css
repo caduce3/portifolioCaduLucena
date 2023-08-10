@@ -85,3 +85,10 @@
     opacity: 1;
 }
 
+.content-line p {
+    font-size: 1.5vw!important;
+}
+
+.content-line h4 {
+    font-size: 2vw!important;
+}
