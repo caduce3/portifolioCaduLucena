@@ -159,7 +159,35 @@ return (
                 <a href="https://clinica-prototipo2.vercel.app/" target='_blank'>
                     <CardTrabalhosProjetos caminhoImagem={'/frela2.jpg'} titulo='FreeLancer para a Synapsismkt' descricao='Uma lading page 100% responsiva para captar o cliente para um clínica médica, o projeto só foi 70% finalizado, já foi totalmente aprovado pelo cliente porém falta o mesmo enviar os textos e imagens que ele deseja, porém mesmo assim já bateu 80/100 de SEO. Aqui utilizei HTML5 (semântico como sempre), CSS3, JS, Tailwind CSS, e NextJS.'/>
                 </a>
+
+                <a href="https://includee2023-1-qx1h.vercel.app/" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/include.jpg'} titulo='INCLUDE UERN Natal' descricao='O INCLUDE é um evento de inclusão aos colouros do curso de computação na UERN Natal, foi me pedido que fizesse uma landing page para mostrar tudo o que seria abordado juntamente com informações sobre o local, data e etc, além de redirecionar a um formulário para inscrição. Aqui utilizei HTML5, CSS3, Bootstrap e Js.'/>
+                </a>
+
+                <a href="https://website-carlos-andre-rl91.vercel.app/" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/webSiteCarlosAndre.jpg'} titulo='Portifólio para o prof° Carlos André' descricao='Portifólio desenvolvido para o professor da UERN Carlos André mostrar um pouco de quem é, o que faz na nossa universidade como projetos, ministração de disciplinas, sua formação dentre outras informações. Utilizando HTML5, CSS3, RectStrap e ReactJs.'/>
+                </a>
             </div>
+        </section>
+
+        <section id='projetos'>
+            <motion.div
+                    initial={{ opacity: 0, x: -500 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -200 }}
+                    transition={{  duration: 1, delay: 0.5  }}
+                >
+                    <h3>Projetos</h3>
+            </motion.div>
+            {/* <div id='container-trabalhos'>
+                <a href="https://includee2023-1-qx1h.vercel.app/" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/include.jpg'} titulo='INCLUDE UERN Natal' descricao='O INCLUDE é um evento de inclusão aos colouros do curso de computação na UERN Natal, foi me pedido que fizesse uma landing page para mostrar tudo o que seria abordado juntamente com informações sobre o local, data e etc, além de redirecionar a um formulário para inscrição. Aqui utilizei HTML5, CSS3, Bootstrap e Js.'/>
+                </a>
+
+                <a href="https://clinica-prototipo2.vercel.app/" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/include.jpg'} titulo='FreeLancer para a Synapsismkt' descricao='Uma lading page 100% responsiva para captar o cliente para um clínica médica, o projeto só foi 70% finalizado, já foi totalmente aprovado pelo cliente porém falta o mesmo enviar os textos e imagens que ele deseja, porém mesmo assim já bateu 80/100 de SEO. Aqui utilizei HTML5 (semântico como sempre), CSS3, JS, Tailwind CSS, e NextJS.'/>
+                </a>
+            </div> */}
         </section>
     </>
   )
