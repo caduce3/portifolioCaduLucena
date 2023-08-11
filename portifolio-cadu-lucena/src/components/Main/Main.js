@@ -151,7 +151,12 @@ return (
                 >
                     <h3>Trabalhos</h3>
             </motion.div>
-            <div id='container-trabalhos'>
+            <motion.div id='container-trabalhos'
+            
+                initial={{ opacity: 0, y: 500 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{  duration: 0.5, delay: 1  }}
+            >
                 <a href="https://www.imd.ufrn.br/portal/noticias/6379/sistema-para-vigil%C3%A2ncia-epidemiol%C3%B3gica-desenvolvido-pelo-imd-entra-em-atividade-no-rn" target='_blank'>
                     <CardTrabalhosProjetos caminhoImagem={'/suvepi.png'} titulo='SUVEPI, Parceria IMD e SESAP/RN' descricao='Um sistema capaz de reunir e verificar automaticamente os dados relativos à pandemia de Covid-19 oriundos de diferentes fontes, gerando maior qualidade e confiabilidade das informações utilizadas pelas secretarias de sáude do estado no tocante à Vigilância Epidemiológica. Atuo como dev front-end web.'/>
                 </a>
@@ -167,7 +172,7 @@ return (
                 <a href="https://website-carlos-andre-rl91.vercel.app/" target='_blank'>
                     <CardTrabalhosProjetos caminhoImagem={'/webSiteCarlosAndre.jpg'} titulo='Portifólio para o prof° Carlos André' descricao='Portifólio desenvolvido para o professor da UERN Carlos André mostrar um pouco de quem é, o que faz na nossa universidade como projetos, ministração de disciplinas, sua formação dentre outras informações. Utilizando HTML5, CSS3, RectStrap e ReactJs.'/>
                 </a>
-            </div>
+            </motion.div>
         </section>
 
         <section id='projetos'>
