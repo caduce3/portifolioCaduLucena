@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100 & display=swap');
+
+#div-content-projeto {
+    margin-top: 100px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 400px;
+    height: 200px;
+    position: relative; /* Adicionado para posicionar elementos filhos */
+    overflow: hidden; /* Adicionado para esconder a descrição quando não estiver em hover */
+    margin-bottom: 100px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#imagem-projeto {
+    transition: transform 0.3s; /* Adicionado para suavizar a transição da imagem */
+}
+
+#div-descricao-projeto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7); /* Alterado para um fundo preto transparente */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.3s; /* Adicionado para suavizar a transição da descrição */
+    padding: 15px;
+    cursor: pointer;
+}
+
+#div-content-projeto:hover #imagem-projeto {
+    transform: scale(1.1); /* Ampliar a imagem em hover */
+}
+
+#div-content-projeto:hover #div-descricao-projeto {
+    opacity: 1; /* Tornar a descrição visível em hover */
+}
+
+#div-descricao-projeto p {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    #div-content-projeto {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+

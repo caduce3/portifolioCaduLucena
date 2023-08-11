@@ -11,6 +11,7 @@ import { BiSolidBabyCarriage} from 'react-icons/bi' ;
 import Image from 'next/image';
 import LinhaTempo from '../LinhaTempo/LinhaTempo';
 import LineTecnologias from '../LineTecnologias/LineTecnologias';
+import CardTrabalhosProjetos from '../CardTrabalhosProjetos/CardTrabalhosProjetos';
 import { motion } from 'framer-motion';
 
 function Main(args) {
@@ -142,7 +143,23 @@ return (
         </section>
 
         <section id='trabalhos'>
-            <h3>Trabalhos</h3>
+            <motion.div
+                    initial={{ opacity: 0, x: -500 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -200 }}
+                    transition={{  duration: 1, delay: 0.5  }}
+                >
+                    <h3>Trabalhos</h3>
+            </motion.div>
+            <div id='container-trabalhos'>
+                <a href="https://www.imd.ufrn.br/portal/noticias/6379/sistema-para-vigil%C3%A2ncia-epidemiol%C3%B3gica-desenvolvido-pelo-imd-entra-em-atividade-no-rn" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/suvepi.png'} titulo='SUVEPI, Parceria IMD e SESAP/RN' descricao='Um sistema capaz de reunir e verificar automaticamente os dados relativos à pandemia de Covid-19 oriundos de diferentes fontes, gerando maior qualidade e confiabilidade das informações utilizadas pelas secretarias de sáude do estado no tocante à Vigilância Epidemiológica. Atuo como dev front-end web.'/>
+                </a>
+
+                <a href="https://clinica-prototipo2.vercel.app/" target='_blank'>
+                    <CardTrabalhosProjetos caminhoImagem={'/frela2.jpg'} titulo='FreeLancer para a Synapsismkt' descricao='Uma lading page 100% responsiva para captar o cliente para um clínica médica, o projeto só foi 70% finalizado, já foi totalmente aprovado pelo cliente porém falta o mesmo enviar os textos e imagens que ele deseja, porém mesmo assim já bateu 80/100 de SEO. Aqui utilizei HTML5 (semântico como sempre), CSS3, JS, Tailwind CSS, e NextJS.'/>
+                </a>
+            </div>
         </section>
     </>
   )

@@ -33,6 +33,7 @@ function LinhaTempo() {
           initial={{ opacity: 0, x: 500 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{  duration: 0.5 }}
+          
         >
           <Image id='img-card-anos' src={conteudo.caminhoImagem} width={450} height={250}/>
           <h4>{conteudo.ano}</h4>
