@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs';
 import './style.css';
+import { motion } from 'framer-motion';
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,11 @@ function Header() {
 
   return (
     <header>
-      <nav id='navbar' className={scrolled ? 'scrolled' : ''}>
+      <motion.nav id='navbar' className={scrolled ? 'scrolled' : ''}
+        initial={{ opacity: 0, y: -500 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{  duration: 0.5 }}
+      >
         <div>
           <h2>Cadu Lucena</h2>
         </div>
@@ -45,7 +50,7 @@ function Header() {
             <li><a href="https://github.com/caduce3" target='_blank'> <BsGithub /></a> </li>
           </ul>
         </div>
-      </nav>
+      </motion.nav>
     </header>
   )
 }

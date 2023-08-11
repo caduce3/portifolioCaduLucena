@@ -73,37 +73,72 @@ return (
 
         <section>
             <div id='section-sobre'>
-                <h3>Sobre</h3>
-                <p id='paragrafo1-sobre'>
-                    Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
-                </p>
+                <motion.div
+                    initial={{ opacity: 0, x: -500 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{  duration: 0.5 }}
+                >
+                    <h3>Sobre</h3>
+                    <p id='paragrafo1-sobre'>
+                        Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
+                    </p>
+                </motion.div>
                 <LinhaTempo/>
             </div>
         </section>
         
         <section id='skills'>
-            <h3>Serviços</h3>
+        <motion.div
+                initial={{ opacity: 0, x: -500 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -200 }}
+                transition={{  duration: 1, delay: 0.5  }}
+            >
+                <h3>Serviços</h3>
+            </motion.div>
             <LineTecnologias/>
         </section>
 
         <section id='tecnologias'>
-            <h3>Tecnologias</h3>
             <motion.div
                 initial={{ opacity: 0, x: -500 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -200 }}
                 transition={{  duration: 1, delay: 0.5  }}
-                id='img-tecnologias'
             >
-
-                <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
-                <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
-                <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
-                <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
-                <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
-                <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
-                <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
+                <h3>Tecnologias</h3>
             </motion.div>
+            <div id='img-tecnologias'>
+
+                <motion.div initial={{ opacity: 0, x: -240 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.5 }}>
+                    <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -300 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.6 }}>
+                    <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.7 }}>
+                    <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -400 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.8 }}>
+                    <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -450 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.9 }}>
+                    <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -500 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1 }}>
+                    <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -550 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1.1 }}>
+                    <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
+                </motion.div>
+
+            </div>
         </section>
 
         <section id='trabalhos'>
