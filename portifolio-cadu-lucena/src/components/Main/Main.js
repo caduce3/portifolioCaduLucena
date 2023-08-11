@@ -64,7 +64,7 @@ return (
 
         <section>
             <div id='section-sobre'>
-                <h3>Sobre.</h3>
+                <h3>Sobre</h3>
                 <p id='paragrafo1-sobre'>
                     Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
                 </p>
@@ -73,8 +73,21 @@ return (
         </section>
         
         <section id='skills'>
-            <h3>Serviços.</h3>
+            <h3>Serviços</h3>
             <LineTecnologias/>
+        </section>
+
+        <section id='tecnologias'>
+            <h3>Tecnologias</h3>
+            <div id='img-tecnologias'>
+                <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
+                <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
+                <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
+                <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
+                <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
+                <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
+                <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
+            </div>
         </section>
     </>
   )

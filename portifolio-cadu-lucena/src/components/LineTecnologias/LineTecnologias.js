@@ -101,7 +101,6 @@ function LineTecnologias() {
                     <p>Não sabe do que se trata? deixa comigo que eu mesmo cuido disso para você enquanto desenvolvo seu projeto! SEO, ou Search Engine Optimization (Otimização para Mecanismos de Busca), refere-se ao conjunto de práticas e técnicas utilizadas para melhorar a visibilidade e a classificação de um site nos resultados dos motores de busca, como o Google, Bing e outros. O objetivo do SEO é aumentar o tráfego orgânico (não pago) para um site, melhorando sua posição nos resultados de busca para palavras-chave relevantes. Minha abordagem visa aumentar o tráfego orgânico e maximizar a presença online. Estou dedicado a aprimorar a visibilidade da sua marca e conectar você com um público mais amplo através das práticas de SEO.</p>
                 </div>
             </div>
-
         </div>
     </>
   )

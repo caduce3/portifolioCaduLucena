@@ -189,3 +189,22 @@ h3 {
 
     }
 }
+
+#img-tecnologias {
+    padding-top: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#tecnologias {
+    background-color: #F2F2F2;
+    padding: 0 80px 0 80px;
+}
+
+.img-tecs {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 10px;
+}
