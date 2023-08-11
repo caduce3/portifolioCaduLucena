@@ -11,20 +11,25 @@ import { BiSolidBabyCarriage} from 'react-icons/bi' ;
 import Image from 'next/image';
 import LinhaTempo from '../LinhaTempo/LinhaTempo';
 import LineTecnologias from '../LineTecnologias/LineTecnologias';
+import { motion } from 'framer-motion';
 
 function Main(args) {
 
     const [modal, setModal] = useState(false);
 
     const toggle = () => setModal(!modal);  
-  
+
 return (
 
     <>
         <section id='home'>
             <div>
-                <div id='div-forma'>
-                    <div id='div-dev'>
+                <div id='div-forma' >
+                    <motion.div id='div-dev'
+                        initial={{ opacity: 0, x: -500 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{  duration: 0.5 }}
+                    >
                         <p>Olá, eu sou o Cadu,</p>
                         <h1>Desenvolvedor <br/> Front-End </h1>
                         <div>
@@ -32,10 +37,14 @@ return (
                             Natal, Rio Grande do Norte, Brasil.
                         </div>
                         <Button id='btn-resumo' onClick={toggle}>Resumo</Button>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div 
+                        initial={{ opacity: 0, y: -500 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{  duration: 0.5 }}
+                    >
                         <Image id='img-perfil' src="/eu4.png" width={350} height={350}/>
-                    </div>
+                    </motion.div>
                 </div>
 
                 
@@ -79,7 +88,8 @@ return (
 
         <section id='tecnologias'>
             <h3>Tecnologias</h3>
-            <div id='img-tecnologias'>
+            <div
+                id='img-tecnologias'>
                 <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
                 <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
                 <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
@@ -88,6 +98,10 @@ return (
                 <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
                 <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
             </div>
+        </section>
+
+        <section id='trabalhos'>
+            <h3>Trabalhos</h3>
         </section>
     </>
   )
