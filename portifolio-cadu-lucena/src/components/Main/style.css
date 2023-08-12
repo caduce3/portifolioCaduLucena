@@ -194,10 +194,9 @@ h3 {
 
 #img-tecnologias {
     padding-top: 100px;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
 }
 #tecnologias {
     background-color: #F2F2F2;
@@ -251,6 +250,10 @@ h3 {
     }
     .container-trabalhos {
         padding-left: 80px;
+    }
+    .img-tecs {
+        width: 100px;
+        height: 100px;
     }
 }
 
