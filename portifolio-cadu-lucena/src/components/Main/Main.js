@@ -111,31 +111,31 @@ return (
             </motion.div>
             <div id='img-tecnologias'>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.5 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.5 }}>
                     <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.6 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.6 }}>
                     <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.7 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.7 }}>
                     <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.8 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.8 }}>
                     <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.9 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.9 }}>
                     <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1 }}>
                     <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: -350 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1.1 }}>
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1.1 }}>
                     <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
                 </motion.div>
 
