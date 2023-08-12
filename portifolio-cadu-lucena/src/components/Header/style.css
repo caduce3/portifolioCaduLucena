@@ -69,6 +69,7 @@
   #nav-navegacao ul,
   #nav-redes-sociais ul {
     display: flex;
+    padding: 0;
   }
   
 
@@ -77,4 +78,5 @@
         font-size: 0.8rem;
         margin: 0;
     }
+ 
 }
