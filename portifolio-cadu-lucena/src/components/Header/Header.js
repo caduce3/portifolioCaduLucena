@@ -25,21 +25,28 @@ function Header() {
 
   return (
     <header>
+      <motion.div id='meu-nome'
+        initial={{ opacity: 0, y: -500 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{  duration: 0.5 }}>
+        <div>
+          <h2>Cadu Lucena</h2>
+        </div>
+      </motion.div>
+
       <motion.nav id='navbar' className={scrolled ? 'scrolled' : ''}
         initial={{ opacity: 0, y: -500 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{  duration: 0.5 }}
       >
-        <div>
-          <h2>Cadu Lucena</h2>
-        </div>
+
         <div id='nav-navegacao'>
           <ul>
-            <li><a href="#navbar">Início</a></li>
-            <li><a href="#home">Sobre</a></li>
-            <li><a href="#home">Serviços</a></li>
-            <li><a href="#home">Trabalhos</a></li>
-            <li><a href="#home">Fale comigo</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#section-sobre">About</a></li>
+            <li><a href="#skills">Services</a></li>
+            <li><a href="#trabalhos">Works</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </div>
       </motion.nav>

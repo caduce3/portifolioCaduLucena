@@ -1,14 +1,17 @@
+#meu-nome{
+  color: #0D0D0D!important;
+}
 #navbar {
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 2%;
     padding-bottom: 0.5%;
     color: #0D0D0D!important;
-    background-color: transparent;
+    background-color: #F2F2F2;
     transition: background-color 0.5s;
     z-index: 3;
   }
