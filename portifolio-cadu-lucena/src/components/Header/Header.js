@@ -25,14 +25,14 @@ function Header() {
 
   return (
     <header>
-      <motion.div id='meu-nome'
+      {/* <motion.div id='meu-nome'
         initial={{ opacity: 0, y: -500 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{  duration: 0.5 }}>
         <div>
           <h2>Cadu Lucena</h2>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       <motion.nav id='navbar' className={scrolled ? 'scrolled' : ''}
         initial={{ opacity: 0, y: -500 }}

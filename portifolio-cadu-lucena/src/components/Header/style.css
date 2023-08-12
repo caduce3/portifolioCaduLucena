@@ -71,3 +71,10 @@
     display: flex;
   }
   
+
+  @media (max-width: 768px) {
+    #nav-navegacao ul li a {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}
