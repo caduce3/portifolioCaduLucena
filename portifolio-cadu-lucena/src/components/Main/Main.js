@@ -151,7 +151,7 @@ return (
                 >
                     <h3>Trabalhos</h3>
             </motion.div>
-            <motion.div id='container-trabalhos'
+            <motion.div className='container-trabalhos'
             
                 initial={{ opacity: 0, y: 500 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -184,7 +184,7 @@ return (
                 >
                     <h3>Projetos</h3>
             </motion.div>
-            <motion.div id='container-trabalhos'
+            <motion.div className='container-trabalhos'
             
                 initial={{ opacity: 0, y: 500 }}
                 whileInView={{ opacity: 1, y: 0 }}

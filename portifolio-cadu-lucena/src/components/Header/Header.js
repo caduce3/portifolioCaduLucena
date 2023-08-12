@@ -1,7 +1,6 @@
 // Header.js
 'use client'
 import React, { useEffect, useState } from 'react';
-import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs';
 import './style.css';
 import { motion } from 'framer-motion';
 
@@ -41,13 +40,6 @@ function Header() {
             <li><a href="#home">Serviços</a></li>
             <li><a href="#home">Trabalhos</a></li>
             <li><a href="#home">Fale comigo</a></li>
-          </ul>
-        </div>
-        <div id='nav-redes-sociais'>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/carlos-eduardo-b0baa5229/" target='_blank'> <BsLinkedin /> </a></li>
-            <li><a href="https://www.instagram.com/cadu.lucenaa/" target='_blank'> <BsInstagram /> </a></li>
-            <li><a href="https://github.com/caduce3" target='_blank'> <BsGithub /></a> </li>
           </ul>
         </div>
       </motion.nav>
