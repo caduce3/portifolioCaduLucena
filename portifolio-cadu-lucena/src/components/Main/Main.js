@@ -75,7 +75,7 @@ return (
         <section>
             <div id='section-sobre'>
                 <motion.div
-                    initial={{ opacity: 0, x: -500 }}
+                    initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{  duration: 0.5 }}
                 >
@@ -90,7 +90,7 @@ return (
         
         <section id='skills'>
         <motion.div
-                initial={{ opacity: 0, x: -500 }}
+                initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -200 }}
                 transition={{  duration: 1, delay: 0.5  }}
@@ -102,7 +102,7 @@ return (
 
         <section id='tecnologias'>
             <motion.div
-                initial={{ opacity: 0, x: -500 }}
+                initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -200 }}
                 transition={{  duration: 1, delay: 0.5  }}
@@ -144,7 +144,7 @@ return (
 
         <section id='trabalhos'>
             <motion.div
-                    initial={{ opacity: 0, x: -500 }}
+                    initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -200 }}
                     transition={{  duration: 1, delay: 0.5  }}
@@ -153,7 +153,7 @@ return (
             </motion.div>
             <motion.div className='container-trabalhos'
             
-                initial={{ opacity: 0, y: 500 }}
+                initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{  duration: 0.5, delay: 0.5  }}
             >
@@ -177,7 +177,7 @@ return (
 
         <section id='projetos'>
             <motion.div
-                    initial={{ opacity: 0, x: -500 }}
+                    initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -200 }}
                     transition={{  duration: 1, delay: 0.5  }}
@@ -186,7 +186,7 @@ return (
             </motion.div>
             <motion.div className='container-trabalhos'
             
-                initial={{ opacity: 0, y: 500 }}
+                initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{  duration: 0.5, delay: 0.5  }}
             >
