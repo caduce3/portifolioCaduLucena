@@ -257,6 +257,10 @@ h3 {
     }
 }
 
-
+@media (max-width: 500px) {
+    .container-trabalhos {
+        padding-left: 30px;
+    }
+}
 
 
