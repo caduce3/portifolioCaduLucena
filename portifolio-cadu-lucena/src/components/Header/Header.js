@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
 import { motion } from 'framer-motion';
+import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs';
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -42,13 +43,15 @@ function Header() {
 
         <div id='nav-navegacao'>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#section-sobre">About</a></li>
+            <li><a href="#section-sobre">About-me</a></li>
             <li><a href="#skills">Services</a></li>
             <li><a href="#trabalhos">Works</a></li>
-            <li><a href="#footer">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/carlos-eduardo-b0baa5229/" target='_blank' > <BsLinkedin /> </a></li>
+            <li><a href="https://www.instagram.com/cadu.lucenaa/" target='_blank' > <BsInstagram /> </a></li>
+            <li><a href="https://github.com/caduce3" target='_blank'> <BsGithub /></a></li>
           </ul>
         </div>
+
       </motion.nav>
     </header>
   )

@@ -33,10 +33,10 @@ return (
                     >
                         <p>Olá, eu sou o Cadu,</p>
                         <h1>Desenvolvedor <br/> Front-End </h1>
-                        <div>
-                            <HiLocationMarker/>
-                            Natal, Rio Grande do Norte, Brasil.
-                        </div>
+                        <p id='paragrafo'>
+                            Atuo há 2 anos na área do desenvolvimento web, um deles como estagiário no TRT 21, e outro como bolsista de graduação como desenvolvedor front end web no sistema SUVIGE.
+                            Atualmente focado no NextJS e sempre atento também a otimização de SEO, procurando estudar mais sobre os states e hooks do React e iniciante no mundo mobile com ReactNative.
+                        </p>
                         <Button id='btn-resumo' onClick={toggle}>Resumo</Button>
                     </motion.div>
                     <motion.div 
@@ -72,22 +72,6 @@ return (
             </div>
         </section>
 
-        <section>
-            <div id='section-sobre'>
-                <motion.div
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{  duration: 0.5 }}
-                >
-                    <h3>Sobre</h3>
-                    <p id='paragrafo1-sobre'>
-                        Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
-                    </p>
-                </motion.div>
-                <LinhaTempo/>
-            </div>
-        </section>
-        
         <section id='skills'>
         <motion.div
                 initial={{ opacity: 0, x: -100 }}
@@ -98,48 +82,6 @@ return (
                 <h3>Serviços</h3>
             </motion.div>
             <LineTecnologias/>
-        </section>
-
-        <section id='tecnologias'>
-            <motion.div
-                initial={{ opacity: 0, x: -100 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -200 }}
-                transition={{  duration: 1, delay: 0.5  }}
-            >
-                <h3>Tecnologias</h3>
-            </motion.div>
-            <div id='img-tecnologias'>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.5 }}>
-                    <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.6 }}>
-                    <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.7 }}>
-                    <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.8 }}>
-                    <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.9 }}>
-                    <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1 }}>
-                    <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
-                </motion.div>
-
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1.1 }}>
-                    <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
-                </motion.div>
-
-            </div>
         </section>
 
         <section id='trabalhos'>
@@ -219,6 +161,65 @@ return (
                 </a>
             </motion.div>
         </section>
+
+        <section>
+            <div id='section-sobre'>
+                <motion.div
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{  duration: 0.5 }}
+                >
+                    <h3>Sobre</h3>
+                    <p id='paragrafo1-sobre'>
+                        Seja bem vindo ao meu portifólio, aqui você vai encontrar um pouco sobre mim e como comecei essa jornada no mundo da programação.
+                    </p>
+                </motion.div>
+                <LinhaTempo/>
+            </div>
+        </section>
+
+        <section id='tecnologias'>
+            <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -200 }}
+                transition={{  duration: 1, delay: 0.5  }}
+            >
+                <h3>Tecnologias</h3>
+            </motion.div>
+            <div id='img-tecnologias'>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.5 }}>
+                    <Image className='img-tecs' src="/html1.png" width={350} height={350} alt='Logo HTML5'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.6 }}>
+                    <Image className='img-tecs' src="/css1.png" width={350} height={350} alt='Logo CSS3'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.7 }}>
+                    <Image className='img-tecs' src="/js.png" width={350} height={350} alt='Logo JavaScript'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.8 }}>
+                    <Image className='img-tecs' src="/r1.png" width={350} height={350} alt='Logo ReactJS'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 0.9 }}>
+                    <Image className='img-tecs' src="/next.png" width={350} height={350} alt='Logo NextJS'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1 }}>
+                    <Image className='img-tecs' src="/git1.png" width={350} height={350} alt='Logo Git'/>
+                </motion.div>
+
+                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{  duration: 1.1 }}>
+                    <Image className='img-tecs' src="/docker1.png" width={350} height={350} alt='Logo Docker'/>
+                </motion.div>
+
+            </div>
+        </section>
+
     </>
   )
 }

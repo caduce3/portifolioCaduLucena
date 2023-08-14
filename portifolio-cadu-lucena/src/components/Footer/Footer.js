@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import './style.css'
-import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs';
 
 function Footer() {
   return (
@@ -15,9 +14,6 @@ function Footer() {
                 <text x="44%" y="81%" fill="white" font-size="20">
                     © 2023 - Cadu Lucena
                 </text>
-                <a href="https://www.linkedin.com/in/carlos-eduardo-b0baa5229/" target='_blank' > <BsLinkedin className='links-footer' x="74%" y="77%"  font-size="20"/> </a>
-                <a href="https://www.instagram.com/cadu.lucenaa/" target='_blank' > <BsInstagram className='links-footer' x="77%" y="77%" font-size="20" /> </a>
-                <a href="https://github.com/caduce3" target='_blank'> <BsGithub className='links-footer' x="80%" y="77%" font-size="20" /></a>  
             </svg>
         </footer>
     </>

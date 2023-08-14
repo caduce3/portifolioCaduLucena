@@ -12,7 +12,12 @@
 #home p { 
     font-size: 25px;
 }
-
+#paragrafo{
+    width: 700px;
+    font-size: 16px!important;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
 h1 {
     font-size: 5vw!important;
     font-weight: bold!important;
@@ -155,6 +160,9 @@ h3 {
     #div-dev{
         margin-right: -200px!important;
     }
+    #paragrafo {
+        width: 400px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -186,10 +194,12 @@ h3 {
         padding-left: 80px;
     }
     #paragrafo1-sobre {
-
         font-size: 16px!important;
-
     }
+    #paragrafo {
+        font-size: 14px!important;
+    }
+
 }
 
 #img-tecnologias {
