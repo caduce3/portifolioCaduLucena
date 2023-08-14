@@ -35,7 +35,7 @@ return (
                         <h1>Desenvolvedor <br/> Front-End </h1>
                         <p id='paragrafo'>
                             Atuo há 2 anos na área do desenvolvimento web, um deles como estagiário no TRT 21, e outro como bolsista de graduação como desenvolvedor front end web no sistema SUVIGE.
-                            Atualmente focado no NextJS e sempre atento também a otimização de SEO, procurando estudar mais sobre os states e hooks do React e iniciante no mundo mobile com ReactNative.
+                            Atualmente focado no NextJS e sempre atento também a otimização de SEO, procurando estudar mais sobre os states e hooks do React e iniciante no mundo mobile com ReactNative. Clique em um dos ícones no menu e entre em contato para saber mais!
                         </p>
                         <Button id='btn-resumo' onClick={toggle}>Resumo</Button>
                     </motion.div>
