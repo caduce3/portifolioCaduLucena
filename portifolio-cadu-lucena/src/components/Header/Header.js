@@ -43,7 +43,7 @@ function Header() {
 
         <div id='nav-navegacao'>
           <ul>
-            <li><a href="#section-sobre">About-me</a></li>
+            <li><a href="#section-sobre">About</a></li>
             <li><a href="#skills">Services</a></li>
             <li><a href="#trabalhos">Works</a></li>
             <li><a href="https://www.linkedin.com/in/carlos-eduardo-b0baa5229/" target='_blank' > <BsLinkedin /> </a></li>
