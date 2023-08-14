@@ -60,7 +60,6 @@ return (
                             <li><AiOutlineEnvironment className='icons-resumo'/>Natal, Rio Grande do Norte, Brasil.</li> 
                             <li><BsBookHalf className='icons-resumo'/>Graduando em Ciência da Computação pela UERN.</li> 
                             <li><MdGames className='icons-resumo'/>Hobbys: Futebol, Games e Programação.</li> 
-                            <li><BsArrowThroughHeartFill className='icons-resumo'/>Em um relacionamento sério.</li> 
                         </ul>
                     </ModalBody>
                     <ModalFooter>
