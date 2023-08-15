@@ -13,7 +13,7 @@
     font-size: 25px;
 }
 #paragrafo{
-    width: 700px;
+    width: 40vw!important;
     font-size: 16px!important;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
@@ -160,9 +160,6 @@ h3 {
     #div-dev{
         margin-right: -200px!important;
     }
-    #paragrafo {
-        width: 400px;
-    }
 }
 
 @media (max-width: 1200px) {
@@ -272,18 +269,10 @@ h3 {
     .container-trabalhos {
         padding-left: 30px;
     }
-    #home {
-        padding-left: 30px;
-    }
-    #paragrafo {
-        width: 400px;
-    }
+
+
 }
 
-@media (max-width: 400px) {
-    #paragrafo {
-        width: 300px;
-    }
-}
+
 
 
